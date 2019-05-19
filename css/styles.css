@@ -1,49 +1,30 @@
-/*@font-face {*/
-    /*font-family: 'Maven Pro';*/
-    /*src: url('assets/fonts/MavenPro-Regular.ttf') format("ttf");*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-/*}*/
-
-/*@font-face {*/
-    /*font-family: 'Lato';*/
-    /*src: url('assets/fonts/Lato-Regular.ttf') format("ttf");*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
-/*}*/
-
 html, body {
     width: 1020px;
     margin: auto;
     padding: 0;
-
     scroll-behavior: smooth;
 }
 
 /*title h1*/
 .visually-hidden {
     position: absolute;
-
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(0px 0px 99.9% 99.9%);
     height: 1px;
     width: 1px;
     padding: 0;
     border: 0;
-
     overflow: hidden;
 }
 
 /*header*/
 .header {
     position: relative;
-
     height: 89px;
 }
 
 .navigation {
     height: 63px;
-
     background-color: #323232;
 }
 
@@ -52,11 +33,9 @@ html, body {
     position: absolute;
     top: 74px;
     left: 30px;
-
     display: block;
     width: 410px;
     height: 1px;
-
     background-color: #e4e9eb;
 }
 
@@ -65,11 +44,9 @@ html, body {
     position: absolute;
     top: 74px;
     right: 30px;
-
     display: block;
     width: 410px;
     height: 1px;
-
     background-color: #e4e9eb;
 }
 
@@ -78,13 +55,11 @@ html, body {
     justify-content: center;
     margin: 0;
     padding: 0;
-
     list-style: none;
 }
 
 .menu li {
     z-index: 1;
-
     align-self: center;
 }
 
@@ -94,7 +69,6 @@ html, body {
 
 .menu a {
     padding: 10px;
-
     font-size: 10px;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -110,7 +84,6 @@ html, body {
     content: ".";
     position: relative;
     bottom: 2px;
-
     color: #494e62;
 }
 
@@ -130,16 +103,13 @@ html, body {
     position: absolute;
     top: -15px;
     left: 50%;
-
     transform: translate(-50%,-50%);
 }
 
 .hexagon {
     width: 180px;
     height: 207px;
-
     transform: rotate(120deg);
-
     overflow: hidden;
 }
 
@@ -147,9 +117,7 @@ html, body {
 .hex-image-1,
 .hex-layer {
     height: 100%;
-
     transform: rotate(-60deg);
-
     overflow: hidden;
 }
 
@@ -168,9 +136,7 @@ html, body {
 .hex-layer-12,
 .hex-layer-13 {
     height: 100%;
-
     transform: rotate(-60deg);
-
     background-color: #323232;
 }
 
@@ -201,7 +167,6 @@ html, body {
     position: relative;
     top: -62px;
     left: -7px;
-
     width: 1020px;
 }
 
@@ -215,11 +180,9 @@ html, body {
     position: relative;
     bottom: 59px;
     left: -8px;
-
     display: inline-block;
     width: 1px;
     height: 104px;
-
     background-color: #e4e9eb;
 }
 
@@ -289,7 +252,6 @@ html, body {
     display: flex;
     margin: 0;
     padding: 0;
-
     list-style: none;
 }
 
@@ -297,7 +259,6 @@ html, body {
     width: 6px;
     height: 6px;
     margin-right: 3px;
-
     background-color: #ddd2c5;
 }
 
@@ -309,29 +270,24 @@ html, body {
     position: relative;
     bottom: -62px;
     left: 31px;
-
     display: inline-block;
     width: 960px;
     height: 1px;
-
     background-color: #e4e9eb;
 }
 
 /*main section about*/
 .about {
     height: 341px;
-
     background-color: #2eb398;
 }
 
 .container {
     position: relative;
     top: 13px;
-
     height: 275px;
     margin: 0 99px 12px;
     padding: 20px;
-
     border-left: 1px solid #219d84;
     border-right: 1px solid #219d84;
 }
@@ -339,16 +295,13 @@ html, body {
 .hexagon-wrap {
     position: relative;
     top: 35px;
-
     display: inline-block;
     margin-right: 15px;
 }
 
 .hex-image-2 {
     height: 100%;
-
     background: #ddd2c5 url("../assets/images/Image.png") no-repeat -120px -1px;
-
     transform: rotate(-60deg);
 }
 
@@ -361,7 +314,6 @@ html, body {
 
 .title-about {
     margin-top: 30px;
-
     font-weight: 400;
     font-size: 30px;
     line-height: 6px;
@@ -371,7 +323,6 @@ html, body {
 
 .sub-title-about {
     margin-top: -8px;
-
     font-weight: 400;
     font-size: 18px;
     line-height: 13px;
@@ -394,20 +345,16 @@ html, body {
 /*footer*/
 .get-in-touch {
     height: 564px;
-
     color: #bebebe;
-
     background-color: #323232;
 }
 
 .content-in-touch {
     position: relative;
     top: 14px;
-
     width: 960px;
     height: 538px;
     margin: auto;
-
     border-top: 1px solid  #2b2b2b;
     border-bottom: 1px solid  #2b2b2b;
 }
@@ -430,7 +377,6 @@ html, body {
 .title-form {
     margin-top: 59px;
     margin-bottom: 15px;
-
     font-weight: 400;
     font-size: 30px;
     line-height: 5px;
@@ -451,11 +397,9 @@ html, body {
 .textarea-message {
     height: 35px;
     margin-top: 20px;
-
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: #bebebe;
-
     border-width: 0;
 }
 
@@ -474,11 +418,8 @@ html, body {
     margin-top: 0;
     padding-top: 9px;
     padding-left: 15px;
-
     line-height: 21px;
-
     background-color: #454545;
-
     resize: none;
 }
 
@@ -493,7 +434,6 @@ html, body {
 .get-in-touch input {
     width: 565px;
     padding-left: 15px;
-
     background-color: #454545;
 }
 
@@ -516,14 +456,11 @@ textarea:-ms-input-placeholder {
     width: 90px;
     height: 37px;
     margin-top: 11px;
-
     float: right;
-
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     color: #d7fcf5;
-
     background-color: #2eb398;
     border-width: 0;
 }
@@ -536,7 +473,6 @@ textarea:-ms-input-placeholder {
     display: flex;
     width: 155px;
     margin-top: 33px;
-
     font-weight: 700;
     font-size: 12px;
     line-height: 22px;
@@ -548,6 +484,7 @@ textarea:-ms-input-placeholder {
     display: block;
     margin-right: 10px;
 }
+
 .icon-contact a {
     display: block;
 }
@@ -555,13 +492,11 @@ textarea:-ms-input-placeholder {
 .footer-bottom {
     width: 100%;
     height: 43px;
-
     background-color: #222222;
 }
 
 .footer-text {
     padding: 15px 39px;
-
     font-size: 12px;
     font-family: 'Maven Pro', sans-serif;
     color: #454545;
